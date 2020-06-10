@@ -23,6 +23,17 @@ board_state = None
 # Good luck ^^
 
 
+
+#1- Definir o cada valor representa
+# x = ?
+# y = ?
+# nada = ? 
+
+#2- Definir forma de representar as 9 posicoes do tabuleiro que vao conter os valores definidos em 1
+
+
+
+
 def desenharTabuleiro():
     """
     Desenhar o estado do board_state de forma a que pareça algo parecido com isto:
@@ -48,6 +59,7 @@ def alterarEstado1():
 
     """
     board_state = None
+
 
 
 def alterarEstado2():
