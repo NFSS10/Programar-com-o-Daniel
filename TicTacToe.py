@@ -1,3 +1,4 @@
+
 import random
 
 """
@@ -31,3 +32,18 @@ if lancamento2 == 0:
 else:
     print('Começa primeiro o jogador que saiu coroa')
 
+
+# A partir daqui já sabemos quem é o primeiro a jogar
+
+jogo_acabou = False
+while not jogo_acabou:
+    if lancamento2 == 0:
+        jogada = input("Jogador {} diz a tua jogada".format(player1))
+        # aplicas a jogada
+        jogada = input("Jogador {} diz a tua jogada".format(player2))
+        # aplicas a jogada
+    else:
+        jogada = input("Jogador {} diz a tua jogada".format(player2))
+        # aplicas a jogada
+        jogada = input("Jogador {} diz a tua jogada".format(player1))
+        # aplicas a jogada
